@@ -15,5 +15,11 @@
     },
     "autoload": {
         "psr-4": { "justneedtotrygit\\hello\\": "src/" }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://localhost/Satis/repository/"
+        }
+    ]
 }
